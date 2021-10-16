@@ -1,2 +1,3 @@
-# Using_Ranking_Loss_Functions_to_Prune_Tree_Based_Machine_Learning_Algorithms
-Built a Decision Tree &amp; AdaBoost model from scratch in Python to customize the pruning loss functions for ranking problems
+# Using Ranking Loss Functions to Prune Tree Based Machine Learning Algorithms
+
+Most common decision tree programming packages use a mean squared error (MSE) loss function. However, MSE may not always be optimal, especially for a ranking problem. Some problems may benefit from custom loss functions. Is a ranking loss function optimal for a ranking problem? By building decision tree and AdaBoost models from scratch, it is possible to customize the pruning loss function used in the models. A simulation study found that Average Precision at k outperformed MSE for the decision tree model. While, MSE outperformed Average Precision at k for the AdaBoost model. Finally, the models were applied to professional golf data where the results aligned with the simulation study.
